@@ -4,8 +4,8 @@ description: > # this means to ignore newlines until "baseurl:"
   This is a blog created just for the purpose of sharing great content with people all around the world.
 permalink: ':title/'
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://dardandemiri.github.io/blog/" # the base hostname & protocol for your site, e.g. http://example.com
-root_url: "https://dardandemiri.github.io/blog/"
+url: "https://dardandemiri.github.io/blog" # the base hostname & protocol for your site, e.g. http://example.com
+root_url: "https://dardandemiri.github.io/blog"
 
 # Author settings
 author: Dardan Demiri # add your name
@@ -24,10 +24,10 @@ instagram: https://www.instagram.com/dardan_demiri# Add your Instagram handle
 pinterest: # Add your Pinterest handle
 
 # Newsletter
-mailchimp: dardan.dmr@gmail.com # Add your MailChimp form identifier.
+mailchimp: dardandemiri # Add your MailChimp form identifier.
 
 # Disqus
-discus_identifier: mr-brown # Add your discus identifier
+discus_identifier: mr-demiri # Add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
