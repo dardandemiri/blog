@@ -1,5 +1,13 @@
 <div class="newsletter" id="mc_embed_signup">
   <h2 class="newsletter-title">Newsletter</h2>
-  <div class="form-container"><script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"3e8acad6b7f16a3ff78a70589","lid":"f67fb32dca"}) })</script>
+  <div class="form-container">
+    <p>Subscribe here to get our latest updates</p>
+    <form action="//{{ site.mailchimp }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <label class="screen-reader-text" for="mce-EMAIL">Email Address</label>
+      <div class="newsletter-box" id="mc_embed_signup_scroll">
+        <input type="email" name="EMAIL" placeholder="Email address" class="email-input" id="mce-EMAIL" required>
+        <input type="submit" value="Subscribe" name="subscribe" class="subscribe-btn" id="mc-embedded-subscribe">
+      </div>
+    </form>
   </div>
 </div> <!-- End Newsletter -->
