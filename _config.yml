@@ -1,0 +1,46 @@
+title: My personal blog - Dardan Demiri
+email: dardan.dmr@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is a blog created just for the purpose of sharing great content with people all around the world.
+permalink: ':title/'
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: Dardan Demiri # add your name
+author-pic: dardan-face.jpg
+about-author: My name is Dardan Demiri. I’m a full-time Front-End Developer and blogger who’s passionate in problem solving and creating beautiful websites.
+
+# Contact links
+email: dardan.dmr@gmail.com # Add your Email address
+phone: 0764020440 # Add your Phone number
+website: https://dardandemiri.github.io/ # Add your website, do not add http://
+linkedin: https://www.linkedin.com/in/dardandemiri/ # Add your Linkedin handle
+github: dardandemiri # Add your Github handle
+twitter: '@DardanDemiri' # Add your Twitter handle
+facebook: https://www.facebook.com/dardan.demiri# Add your Facebook handle
+instagram: https://www.instagram.com/dardan_demiri# Add your Instagram handle
+pinterest: # Add your Pinterest handle
+
+# Newsletter
+mailchimp: dardan.dmr@gmail.com# Add your MailChimp form identifier.
+
+# Disqus
+discus_identifier: mr-demiri # Add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
