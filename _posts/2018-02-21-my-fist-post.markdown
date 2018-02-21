@@ -4,7 +4,7 @@ title: What you will get from this Blog
 date: 2018-02-21 22:18:20 +0300
 description: An introduction to my blog and the content that you will find here. # Add post description (optional)
 img: post-7.jpg # Add image post (optional)
-tags: [Blog, Meditation]
+tags: [Blog]
 author: Dardan Demiri # Add name author (optional)
 ---
 This is my first post ever on my blog, and I am going to explain what this blog is all about.
